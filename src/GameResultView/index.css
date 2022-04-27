@@ -1,0 +1,38 @@
+.show-result-container {
+  width: 100%;
+}
+
+.result-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.result-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.result-image-item {
+  width: 150px;
+  height: 150px;
+}
+
+.result-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.play-again-button {
+  border: 0;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
